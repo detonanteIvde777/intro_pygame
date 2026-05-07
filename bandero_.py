@@ -37,8 +37,8 @@ s8.fill(blanco)
 s9.fill(azul)
 
 # Creamos el cuadro azul de la esquina (el cantón) que mide 150x150
-canton = pygame.Surface((150, 150))
-canton.fill(azul)
+platon = pygame.Surface((150, 150))
+platon.fill(azul)
 
 # Creamos las partes de la cruz blanca
 cruz_v = pygame.Surface((30, 150)) # Brazo vertical
@@ -58,7 +58,7 @@ ventana.blit(s8, (0, 210))
 ventana.blit(s9, (0, 240))
 
 # Agregar el cantón y la cruz encima
-ventana.blit(canton, (0, 0))
+ventana.blit(platon, (0, 0))
 ventana.blit(cruz_v, (60, 0))  # Centrado en el cantón
 ventana.blit(cruz_h, (0, 60))  # Centrado en el cantón
 
@@ -72,3 +72,5 @@ while True:
         break
 
 pygame.quit()
+
+
