@@ -8,7 +8,7 @@ negro = (0,0,0)
 pantalla.fill(negro)
 
 # cargar imagenes
-mario = pygame.image.load("assets/imagenes/mario03.png").convert()
+mario = pygame.image.load("asserts/images/mario03.png").convert()
 # ubicar la imagen de la ventana
 pantalla.blit(mario, (5,5))
 
